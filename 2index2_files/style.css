@@ -1,0 +1,292 @@
+@import url( http://fonts.googleapis.com/css?family=nobody_talksregular );
+article {
+	display: block;
+}
+aside {
+	display: block;
+}
+details {
+	display: block;
+}
+figcaption {
+	display: block;
+}
+figure {
+	display: block;
+}
+footer {
+	display: block;
+}
+header {
+	display: block;
+}
+hgroup {
+	display: block;
+}
+main {
+	display: block;
+}
+nav {
+	display: block;
+}
+section {
+	display: block;
+}
+summary {
+	display: block;
+}
+audio {
+	display: inline-block;
+}
+canvas {
+	display: inline-block;
+}
+video {
+	display: inline-block;
+}
+audio:not([controls]) {
+	height: 0px; display: none;
+}
+[hidden] {
+	display: none;
+}
+template {
+	display: none;
+}
+html {
+	font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;
+}
+body {
+	margin: 0px;
+}
+a {
+	background: none;
+}
+a:focus {
+	outline: dotted thin;
+}
+a:active {
+	outline: 0px;
+}
+a:hover {
+	outline: 0px;
+}
+h1 {
+	margin: 0.67em 0px; font-size: 2em;
+}
+abbr[title] {
+	border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: dotted;
+}
+b {
+	font-weight: bold;
+}
+strong {
+	font-weight: bold;
+}
+dfn {
+	font-style: italic;
+}
+hr {
+	height: 0px; box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+mark {
+	background: rgb(255, 255, 0); color: rgb(0, 0, 0);
+}
+code {
+	font-family: monospace, serif; font-size: 1em;
+}
+kbd {
+	font-family: monospace, serif; font-size: 1em;
+}
+pre {
+	font-family: monospace, serif; font-size: 1em;
+}
+samp {
+	font-family: monospace, serif; font-size: 1em;
+}
+pre {
+	white-space: pre-wrap;
+}
+q {
+	quotes: "?" "?" "?" "?";
+}
+small {
+	font-size: 80%;
+}
+sub {
+	line-height: 0; font-size: 75%; vertical-align: baseline; position: relative;
+}
+sup {
+	line-height: 0; font-size: 75%; vertical-align: baseline; position: relative;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+svg:not(:root) {
+	overflow: hidden;
+}
+figure {
+	margin: 0px;
+}
+fieldset {
+	margin: 0px 2px; padding: 0.35em 0.62em 0.75em; border: 1px solid rgb(192, 192, 192); border-image: none;
+}
+legend {
+	padding: 0px; border: 0px currentColor; border-image: none;
+}
+button {
+	margin: 0px; font-family: inherit; font-size: 100%;
+}
+input {
+	margin: 0px; font-family: inherit; font-size: 100%;
+}
+select {
+	margin: 0px; font-family: inherit; font-size: 100%;
+}
+textarea {
+	margin: 0px; font-family: inherit; font-size: 100%;
+}
+button {
+	line-height: normal;
+}
+input {
+	line-height: normal;
+}
+button {
+	text-transform: none;
+}
+select {
+	text-transform: none;
+}
+button {
+	cursor: pointer; -webkit-appearance: button;
+}
+html input[type='button'] {
+	cursor: pointer; -webkit-appearance: button;
+}
+input[type='reset'] {
+	cursor: pointer; -webkit-appearance: button;
+}
+input[type='submit'] {
+	cursor: pointer; -webkit-appearance: button;
+}
+button[disabled] {
+	cursor: default;
+}
+html input[disabled] {
+	cursor: default;
+}
+input[type='checkbox'] {
+	padding: 0px; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+input[type='radio'] {
+	padding: 0px; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+input[type='search'] {
+	box-sizing: content-box; -webkit-box-sizing: content-box; -webkit-appearance: textfield;
+}
+textarea {
+	overflow: auto; vertical-align: top;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+#stats {
+	left: 0px; top: 0px; width: 85px !important; position: fixed; z-index: 9999; opacity: 1 !important;
+}
+#fps {
+	background: none !important; padding: 5px !important; opacity: 1 !important;
+}
+#ms {
+	background: none !important; padding: 5px !important; opacity: 1 !important;
+}
+#fpsText {
+	font: 9px/normal "Lucida Grande", sans-serif !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#msText {
+	font: 9px/normal "Lucida Grande", sans-serif !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#fpsText {
+	color: rgb(218, 180, 91) !important;
+}
+#msText {
+	color: rgb(107, 215, 113) !important;
+}
+#msGraph {
+	margin-top: 4px; background-color: rgb(107, 215, 113) !important;
+}
+#msGraph span {
+	background-color: rgb(17, 17, 17) !important;
+}
+#fpsGraph {
+	display: none !important;
+}
+body .dg .cr.number {
+	border-left-color: rgb(218, 180, 91); border-left-width: 3px; border-left-style: solid;
+}
+body .dg .cr.number input[type=text] {
+	color: rgb(218, 180, 91);
+}
+body .dg .cr.boolean {
+	border-left-color: rgb(255, 97, 97); border-left-width: 3px; border-left-style: solid;
+}
+body .dg .c .slider-fg {
+	background: rgb(218, 180, 91);
+}
+body .dg .c .slider:hover .slider-fg {
+	background: rgb(218, 180, 91);
+}
+body .dg .cr.function:hover {
+	border-bottom-color: rgb(218, 180, 91); border-bottom-width: 1px; border-bottom-style: solid;
+}
+body .dg .cr.function:active {
+	border-bottom-color: rgb(218, 180, 91); border-bottom-width: 1px; border-bottom-style: solid;
+}
+a {
+	transition:color 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94); color: rgb(218, 180, 91); text-decoration: none; -webkit-transition: color 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+a:visited {
+	transition:color 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94); color: rgb(218, 180, 91); text-decoration: none; -webkit-transition: color 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+a:hover {
+	transition:color; color: rgb(239, 239, 239); -webkit-transition: color 0;
+}
+a:hover:visited {
+	transition:color; color: rgb(239, 239, 239); -webkit-transition: color 0;
+}
+a:focus {
+	
+}
+a:focus:visited {
+	
+}
+a:active {
+	color: rgb(218, 180, 91);
+}
+a:active:visited {
+	color: rgb(218, 180, 91);
+}
+.link--sources {
+	color: rgb(218, 180, 91); font-family: "Inconsolata",Cambria,Times New Roman,Times,serif; position: fixed; z-index: 999; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.preloader {
+	color: rgb(218, 180, 91); font-family: "Inconsolata",Cambria,Times New Roman,Times,serif; position: fixed; z-index: 999; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.link--sources {
+	left: 50%; bottom: 3rem; font-size: 1rem; margin-top: -1.1rem; opacity: 0; transform: translateX(-50%); -webkit-transform: translateX(-50%);
+}
+.preloader {
+	top: 50%; width: 100%; text-align: center; font-size: 1.4rem; margin-top: -1.1rem; opacity: 0; pointer-events: none;
+}
+.source__video {
+	left: 0px; top: 0px; position: absolute; z-index: 0; opacity: 0;
+}
+#canvas {
+	width: 100%; display: block;
+}
